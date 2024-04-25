@@ -11,12 +11,15 @@ my_shopping_list = ["milk", "eggs", "bacon"]
 friend_shopping_list = ["beer", "cookies", "apples"]
 # Programmatically combine the two arrays into a single list,
 combined_list = my_shopping_list + friend_shopping_list
-puts combined_list
 # sort the result (alphabetically), and write it to the screen.
+sorted_list = combined_list.sort
 
 # If the two lists contain the same item, only show it once!
+unique_list = combined_list.uniq
 
 # Lastly, display each item in the list prepended with "buy ".
+puts "buy #{unique_list[0]}"
+puts "buy #{unique_list[1]}"
 
 # HINTS
 # Learn to read the documentation!
