@@ -10,9 +10,7 @@ diamonds = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 hearts = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 spades = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 
-for suit in clubs 
-    puts "#{suit} of Clubs"
-end
+
 
 # Sample output:
 # 2 of Clubs
@@ -31,8 +29,9 @@ ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 
 for suit in suits
-for rank in ranks
-    puts "#{rank} of #{club}!"
+    for rank in ranks
+     puts "#{rank} of #{suits}!"
+    end
 end
 # CHALLENGE #2
 # Deal a poker hand. Shuffle the deck and "deal" (i.e. display) a 5 card hand (i.e. 5 cards from the deck).
