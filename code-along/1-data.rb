@@ -13,7 +13,15 @@
 # Nothing
 
 # Variables
+zebra = 1
+puts zebra
 
+zebra = zebra + 1
+puts zebra
+
+my_favorite_thing = "tacos"
+number_of_things = 3
+puts "my order is... #{number_of_things} #{my_favorite_thing}"
 # Combine strings and variables
 
 # String manipulation
